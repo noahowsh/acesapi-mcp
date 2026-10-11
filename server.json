@@ -1,0 +1,103 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.noahowsh/acesapi",
+  "title": "AcesAPI",
+  "description": "ATP and WTA tennis since 2007: sets, draws, rankings, head to head, surface Elo, sportsbook lines.",
+  "version": "1.1.4",
+  "license": "MIT",
+  "repository": {
+    "url": "https://github.com/noahowsh/acesapi-mcp",
+    "source": "github"
+  },
+  "icons": [
+    {
+      "src": "https://github.com/noahowsh/acesapi-mcp/raw/main/assets/logo-400x400.png",
+      "mimeType": "image/png",
+      "sizes": [
+        "400x400"
+      ]
+    }
+  ],
+  "homepage": "https://acesapi.com",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.acesapi.com/mcp",
+      "headers": [
+        {
+          "name": "x-api-key",
+          "description": "Your AcesAPI API key. Get a free key with 500 credits at acesapi.com/signup",
+          "isRequired": true,
+          "isSecret": true
+        }
+      ]
+    }
+  ],
+  "tools": [
+    {
+      "name": "list_tournaments",
+      "description": "A season's tournaments with dates, surface, status and champion",
+      "readOnlyHint": true
+    },
+    {
+      "name": "search_players",
+      "description": "Find players by name or country",
+      "readOnlyHint": true
+    },
+    {
+      "name": "get_tournament",
+      "description": "A tournament's draw and results, round by round, with every set",
+      "readOnlyHint": true
+    },
+    {
+      "name": "get_matches",
+      "description": "Match results by day, tournament or season, with set and tiebreak scores",
+      "readOnlyHint": true
+    },
+    {
+      "name": "get_schedule",
+      "description": "Upcoming and in-progress matches for the next days",
+      "readOnlyHint": true
+    },
+    {
+      "name": "get_match",
+      "description": "One match: sets, tiebreak points, seeds, ratings and what the score says",
+      "readOnlyHint": true
+    },
+    {
+      "name": "get_rankings",
+      "description": "Weekly ranking lists since 2007, or one player's ranking history",
+      "readOnlyHint": true
+    },
+    {
+      "name": "get_ratings",
+      "description": "Our Elo ratings, overall or by surface",
+      "readOnlyHint": true
+    },
+    {
+      "name": "get_head_to_head",
+      "description": "Two players' meetings, wins by surface and in finals",
+      "readOnlyHint": true
+    },
+    {
+      "name": "get_surface_splits",
+      "description": "A player's record by surface: sets, games, tiebreaks, deciding sets",
+      "readOnlyHint": true
+    },
+    {
+      "name": "get_player_stats",
+      "description": "A player's season statistics from scores, by round and opponent rank",
+      "readOnlyHint": true
+    },
+    {
+      "name": "get_player",
+      "description": "Profile, ranking, ratings, career record, titles and recent matches",
+      "readOnlyHint": true
+    },
+    {
+      "name": "get_player_matches",
+      "description": "A player's matches with scores and ratings, filtered by season, surface or opponent",
+      "readOnlyHint": true
+    }
+  ]
+}
