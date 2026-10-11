@@ -49,6 +49,21 @@ curl -X POST https://mcp.acesapi.com/v1/list_tournaments -H "x-api-key: YOUR_API
 
 Every tool is `POST /v1/{tool}` with a JSON body.
 
+## Examples
+
+Runnable Python (standard library only) and Node 18+ (no dependencies) examples live in [`examples/`](examples/):
+
+- [`examples/python/quickstart.py`](examples/python/quickstart.py) and [`examples/node/quickstart.mjs`](examples/node/quickstart.mjs): schedule plus a headline call.
+- [`examples/python/tennis_head_to_head_surface_elo.py`](examples/python/tennis_head_to_head_surface_elo.py): Two players side by side.
+
+```bash
+export ACESAPI_API_KEY=your_key
+python3 examples/python/quickstart.py
+node examples/node/quickstart.mjs
+```
+
+See [`examples/README.md`](examples/README.md) for details. Get a free key (500 credits a month, no card) at https://acesapi.com/signup.
+
 ## Tools (13)
 
 | Tool | What it returns |
