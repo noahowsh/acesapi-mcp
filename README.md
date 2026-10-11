@@ -1,5 +1,7 @@
 # AcesAPI MCP server
 
+[![Smithery](https://img.shields.io/badge/Smithery-listed-ff5601?style=flat-square)](https://smithery.ai/servers/noahowsh/AcesAPI) [![MCP Registry](https://img.shields.io/badge/MCP%20Registry-listed-0b7285?style=flat-square)](https://registry.modelcontextprotocol.io/v0/servers?search=io.github.noahowsh/acesapi)
+
 **The tennis data API.** ATP and WTA singles matches with every set and tiebreak score, tournament draws round by round, player profiles, weekly rankings, head to head, surface splits, our own Elo by surface, and sportsbook moneylines on Grand Slam and Masters / WTA 1000 matches. REST API and MCP server. 500 free credits, no card.
 
 Website: https://acesapi.com · Docs: https://acesapi.com/docs · Get a key: https://acesapi.com/signup
