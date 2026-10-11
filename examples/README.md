@@ -1,6 +1,6 @@
 # AcesAPI examples
 
-Runnable examples for the [AcesAPI API](https://acesapi.com). Python uses only the standard library (`urllib` and `json`). Node uses the built-in `fetch` (Node 18 or newer). No packages to install.
+Runnable examples for the [AcesAPI](https://acesapi.com). Python uses only the standard library (`urllib` and `json`). Node uses the built-in `fetch` (Node 18 or newer). No packages to install.
 
 ATP and WTA tennis data API. Every tool is a REST call: `POST https://mcp.acesapi.com/v1/<tool_name>` with a JSON body and an `x-api-key` header. The same tools are available over MCP at `https://mcp.acesapi.com/mcp`.
 
