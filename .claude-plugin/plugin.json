@@ -1,0 +1,11 @@
+{
+  "name": "acesapi-skills",
+  "description": "16 Claude skills for tennis analytics and betting models with AcesAPI: data lookups, metrics, feature engineering, walk-forward validation, devigging, edge detection and backtests.",
+  "version": "1.0.0",
+  "author": {
+    "name": "AcesAPI"
+  },
+  "homepage": "https://acesapi.com",
+  "repository": "https://github.com/noahowsh/acesapi-mcp",
+  "license": "MIT"
+}
