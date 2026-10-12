@@ -1,0 +1,14 @@
+{
+  "name": "acesapi",
+  "description": "Tennis analytics skills for Claude Code, wired to the AcesAPI MCP server",
+  "owner": {
+    "name": "AcesAPI"
+  },
+  "plugins": [
+    {
+      "name": "acesapi-skills",
+      "source": "./",
+      "description": "16 tennis analytics and betting-model skills"
+    }
+  ]
+}

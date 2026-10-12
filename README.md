@@ -25,6 +25,15 @@ This repo also ships 16 free Claude skills in [`skills/`](skills/) that turn Cla
 git clone https://github.com/noahowsh/acesapi-mcp.git
 ```
 
+Or install them as a Claude Code plugin:
+
+```
+/plugin marketplace add noahowsh/acesapi-mcp
+/plugin install acesapi-skills@acesapi
+```
+
+Or with the skills CLI: `npx skills add noahowsh/acesapi-mcp`.
+
 Point Claude at the `skills/` folder, add the MCP server (see Quick start), and ask a question such as "who is favored in tomorrow's Shanghai match and why?". Full catalog: [`skills/README.md`](skills/README.md). The skills also work on your own CSV or JSON without a key.
 
 ## Useful pages
