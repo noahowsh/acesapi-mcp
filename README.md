@@ -17,6 +17,27 @@ You:    "Which moneylines were posted for the 2025 US Open men's final?"
 Claude: [calls get_matches, then get_match]
 ```
 
+## Skills
+
+This repo also ships 16 free Claude skills in [`skills/`](skills/) that turn Claude into a tennis analyst on top of the tools below: match and player lookup, surface Elo, head to head, ranking history, set-score modeling, odds math, edge detection and backtesting. They call the AcesAPI tools and keep to what the data holds (no serve statistics, moneylines on Slams, Masters and WTA 1000 only).
+
+```bash
+git clone https://github.com/noahowsh/acesapi-mcp.git
+```
+
+Point Claude at the `skills/` folder, add the MCP server (see Quick start), and ask a question such as "who is favored in tomorrow's Shanghai match and why?". Full catalog: [`skills/README.md`](skills/README.md). The skills also work on your own CSV or JSON without a key.
+
+## Useful pages
+
+- [Docs](https://acesapi.com/docs): every endpoint with parameters and live examples
+- [Tennis odds](https://acesapi.com/odds): upcoming ATP and WTA matches with each sportsbook's moneyline
+- [Data atlas](https://acesapi.com/docs/atlas): what exists and where coverage is partial
+- [Guides](https://acesapi.com/guides): Python walkthroughs for surface Elo, head to head, rankings, set scores and surface splits
+- [Data](https://acesapi.com/data): [results](https://acesapi.com/data/tennis-results-api), [rankings history](https://acesapi.com/data/tennis-rankings-history), [odds history](https://acesapi.com/data/tennis-odds-history)
+- [Pricing](https://acesapi.com/pricing): credits per call, 500 free every month
+- [Surface Elo explained](https://acesapi.com/glossary/surface-elo)
+- Compare: [API Tennis](https://acesapi.com/compare/api-tennis), [ESPN's tennis feed](https://acesapi.com/compare/espn-tennis-api), [Sportradar](https://acesapi.com/compare/sportradar-tennis), [SportsDataIO](https://acesapi.com/compare/sportsdataio-tennis)
+
 ## Quick start
 
 This is a hosted (remote) MCP server over Streamable HTTP. There is nothing to install.
