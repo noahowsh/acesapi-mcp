@@ -2,7 +2,7 @@
 
 [![Smithery](https://img.shields.io/badge/Smithery-listed-ff5601?style=flat-square)](https://smithery.ai/servers/noahowsh/AcesAPI) [![MCP Registry](https://img.shields.io/badge/MCP%20Registry-listed-0b7285?style=flat-square)](https://registry.modelcontextprotocol.io/v0/servers?search=io.github.noahowsh/acesapi)
 
-**The tennis data API.** ATP and WTA singles matches with every set and tiebreak score, tournament draws round by round, player profiles, weekly rankings, head to head, surface splits, our own Elo by surface, and sportsbook moneylines on Grand Slam and Masters / WTA 1000 matches. REST API and MCP server. 500 free credits, no card.
+**The tennis data API.** ATP and WTA singles matches with every set and tiebreak score, tournament draws round by round, player profiles, weekly rankings, head to head, surface splits, our own Elo by surface, and sportsbook moneylines on Grand Slam and Masters / WTA 1000 matches. REST API and MCP server. 500 free credits every month, no card.
 
 Website: https://acesapi.com · Docs: https://acesapi.com/docs · Get a key: https://acesapi.com/signup
 
@@ -117,7 +117,7 @@ Coverage by season, read live from the database: https://acesapi.com/docs
 
 ## Pricing
 
-500 free credits on signup, no card. Plans: Starter $19/mo (10,000 credits), Pro $49/mo (30,000), Scale $149/mo (125,000). Wallet top-ups from $5, never expire. https://acesapi.com/pricing
+500 free credits every month, no card. Plans: Starter $19/mo (10,000 credits), Pro $49/mo (30,000), Scale $149/mo (125,000). Wallet top-ups from $5, never expire. https://acesapi.com/pricing
 
 ## Attribution
 
