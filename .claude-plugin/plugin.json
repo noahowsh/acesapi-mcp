@@ -5,7 +5,22 @@
   "author": {
     "name": "AcesAPI"
   },
-  "homepage": "https://acesapi.com",
+  "homepage": "https://acesapi.com/skills",
   "repository": "https://github.com/noahowsh/acesapi-mcp",
-  "license": "MIT"
+  "license": "MIT",
+  "displayName": "AcesAPI Skills",
+  "documentationUrl": "https://acesapi.com/docs",
+  "privacyPolicyUrl": "https://acesapi.com/privacy",
+  "termsOfServiceUrl": "https://acesapi.com/terms",
+  "supportUrl": "mailto:support@acesapi.com",
+  "keywords": [
+    "tennis",
+    "atp",
+    "sports-analytics",
+    "sports-betting",
+    "sports-data",
+    "odds",
+    "backtesting",
+    "acesapi"
+  ]
 }
