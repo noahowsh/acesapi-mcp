@@ -135,3 +135,28 @@ Tennis data from public ESPN data; sportsbook lines from The Odds API. Surfaces 
 ## License
 
 MIT for the contents of this repository. Data terms as above.
+
+## Use with Codex
+
+Add this repo as a Codex plugin marketplace, then install the plugin:
+
+```bash
+codex plugin marketplace add noahowsh/acesapi-mcp
+```
+
+Then open the plugin directory in Codex and install `acesapi-skills` from the `acesapi` marketplace. The plugin bundles the skills in `skills/` and the AcesAPI MCP server (https://mcp.acesapi.com/mcp). Set your key first (free at https://acesapi.com/signup):
+
+```bash
+export ACESAPI_API_KEY=your_key
+```
+
+Codex sends it as a bearer token.
+
+## Use with Gemini CLI
+
+```bash
+export ACESAPI_API_KEY=your_key
+gemini extensions install https://github.com/noahowsh/acesapi-mcp
+```
+
+The extension adds the AcesAPI MCP server (https://mcp.acesapi.com/mcp) and sends the key in the `x-api-key` header. Get a free key (500 credits a month) at https://acesapi.com/signup.

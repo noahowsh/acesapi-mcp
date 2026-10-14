@@ -1,0 +1,9 @@
+{
+  "mcpServers": {
+    "acesapi": {
+      "type": "http",
+      "url": "https://mcp.acesapi.com/mcp",
+      "bearer_token_env_var": "ACESAPI_API_KEY"
+    }
+  }
+}
