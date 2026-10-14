@@ -1,0 +1,14 @@
+{
+  "name": "acesapi",
+  "version": "1.0.0",
+  "description": "AcesAPI MCP server for tennis data: schedules, results, stats and odds.",
+  "contextFileName": "GEMINI.md",
+  "mcpServers": {
+    "acesapi": {
+      "httpUrl": "https://mcp.acesapi.com/mcp",
+      "headers": {
+        "x-api-key": "${ACESAPI_API_KEY}"
+      }
+    }
+  }
+}
