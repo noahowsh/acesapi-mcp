@@ -47,6 +47,27 @@ Point Claude at the `skills/` folder, add the MCP server (see Quick start), and 
 - [Surface Elo explained](https://acesapi.com/glossary/surface-elo)
 - Compare: [API Tennis](https://acesapi.com/compare/api-tennis), [ESPN's tennis feed](https://acesapi.com/compare/espn-tennis-api), [Sportradar](https://acesapi.com/compare/sportradar-tennis), [SportsDataIO](https://acesapi.com/compare/sportsdataio-tennis)
 
+## Python
+
+The official Python client is on PyPI: [acesapi](https://pypi.org/project/acesapi/).
+
+```bash
+pip install acesapi
+export ACESAPI_API_KEY=sk_live_...
+```
+
+```python
+from acesapi import Client
+
+client = Client()
+
+ranks = client.get_rankings(limit=5)
+for row in ranks["rankings"]:
+    print(row["rank"], row["name"], row["points"])
+```
+
+Typed errors for a bad key, no credits left, not found and rate limits, automatic retries, and `to_dataframe` for pandas.
+
 ## Quick start
 
 This is a hosted (remote) MCP server over Streamable HTTP. There is nothing to install.
