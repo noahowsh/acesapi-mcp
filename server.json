@@ -26,7 +26,7 @@
       "headers": [
         {
           "name": "x-api-key",
-          "description": "Your AcesAPI API key. Get a free key with 500 credits at acesapi.com/signup",
+          "description": "Your AcesAPI API key. Get a free key (500 credits every month) at acesapi.com/signup",
           "isRequired": true,
           "isSecret": true
         }
