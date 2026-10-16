@@ -1,6 +1,6 @@
 {
   "name": "acesapi-skills",
-  "version": "1.0.0",
+  "version": "1.1.6",
   "description": "16 Claude skills for tennis analytics and betting models with AcesAPI: data lookups, metrics, feature engineering, walk-forward validation, devigging, edge detection and backtests.",
   "author": {
     "name": "AcesAPI",

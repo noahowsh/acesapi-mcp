@@ -3,7 +3,7 @@
   "name": "io.github.noahowsh/acesapi",
   "title": "AcesAPI",
   "description": "ATP and WTA tennis since 2007: sets, draws, rankings, head to head, surface Elo, sportsbook lines.",
-  "version": "1.1.4",
+  "version": "1.1.6",
   "license": "MIT",
   "repository": {
     "url": "https://github.com/noahowsh/acesapi-mcp",
