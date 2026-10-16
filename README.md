@@ -17,6 +17,22 @@ You:    "Which moneylines were posted for the 2025 US Open men's final?"
 Claude: [calls get_matches, then get_match]
 ```
 
+
+## Run it locally (stdio)
+
+Most clients connect to `https://mcp.acesapi.com/mcp` directly. For a client that launches a local process instead:
+
+```bash
+git clone https://github.com/noahowsh/acesapi-mcp.git && cd acesapi-mcp && npm install
+ACESAPI_API_KEY=your_key node index.js
+```
+
+```json
+{ "mcpServers": { "acesapi": { "command": "node", "args": ["/path/to/acesapi-mcp/index.js"], "env": { "ACESAPI_API_KEY": "your_key" } } } }
+```
+
+It forwards to the hosted server with your key, so every tool and credit cost is the same.
+
 ## Skills
 
 This repo also ships 16 free Claude skills in [`skills/`](skills/) that turn Claude into a tennis analyst on top of the tools below: match and player lookup, surface Elo, head to head, ranking history, set-score modeling, odds math, edge detection and backtesting. They call the AcesAPI tools and keep to what the data holds (no serve statistics, moneylines on Slams, Masters and WTA 1000 only).

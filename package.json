@@ -1,0 +1,34 @@
+{
+  "name": "acesapi-mcp",
+  "version": "1.0.0",
+  "description": "ATP and WTA tennis since 2007: sets, draws, rankings, head to head, surface Elo, sportsbook lines.",
+  "type": "module",
+  "main": "index.js",
+  "bin": {
+    "acesapi": "index.js"
+  },
+  "scripts": {
+    "start": "node index.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "tennis",
+    "sports",
+    "api",
+    "odds",
+    "stats"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/noahowsh/acesapi-mcp"
+  },
+  "homepage": "https://acesapi.com",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.32.1"
+  }
+}
