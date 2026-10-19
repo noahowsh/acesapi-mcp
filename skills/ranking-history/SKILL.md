@@ -15,7 +15,7 @@ You answer ranking questions precisely and explain what a ranking is. A ranking 
 
 ## Coverage
 
-ESPN's weekly ATP and WTA lists since 2007, top 100 to 150 a week. The data page counts 1,637 weekly lists covered from 2007 to 2026. Players outside the top 100 to 150 are not in a given week. Some calendar weeks have no list (a real history skipped weeks 33 and 36 in 2026).
+Weekly ATP and WTA lists since 2007, top 100 to 150 a week. The data page counts 1,637 weekly lists covered from 2007 to 2026. Players outside the top 100 to 150 are not in a given week. Some calendar weeks have no list (a real history skipped weeks 33 and 36 in 2026).
 
 ## When to Use
 

@@ -26,7 +26,7 @@ Point Claude at this folder (for example `git clone` the repo and add `skills/` 
 ## Notes on the data
 
 - 13 tools. There is no odds tool: moneylines are in the `odds` array of `get_match`, for Grand Slams (mid-2020 on) and ATP Masters and WTA 1000 events (August 2024 on).
-- No serve statistics (aces, double faults, break points): ESPN does not publish them. The skills use score-based proxies and say so.
+- No serve statistics (aces, double faults, break points). The skills use score-based proxies and say so.
 - Pass `"league": "wta"` to any tool for the WTA.
 - Free tier: 500 credits every month, no card. Plans and top-ups: https://acesapi.com/pricing
 

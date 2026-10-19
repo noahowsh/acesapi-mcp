@@ -42,7 +42,7 @@ You model the shape of a match: how likely a straight-sets win is, how many game
 
 | Not Available | Use Instead |
 |--------------|-------------|
-| `get_serve_stats` | Not available. ESPN publishes no serve statistics; `get_match` returns `serve_stats: null` |
+| `get_serve_stats` | Not available. `get_match` returns `serve_stats: null` |
 | `get_break_points` | Not available |
 | `get_point_by_point` | Not available |
 | `get_set_odds` | Not available: only moneylines plus `games_total` and `games_spread1` on some books |

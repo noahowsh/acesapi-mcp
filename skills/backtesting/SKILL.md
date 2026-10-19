@@ -18,7 +18,7 @@ You falsify claims. A backtest here exists to find out whether a rule beat the c
 
 - Prices exist for Grand Slam matches from mid-2020, and ATP Masters and WTA 1000 from August 2024. The data page counts 11,551 matches covered from 2020 to 2026.
 - Each book has two snapshots: open and close. No full line history. No in-play. No props.
-- Lines come from The Odds API, refreshed hourly. Books differ by match; use matches where a given book appears for book-specific tests.
+- Lines are refreshed hourly. Books differ by match; use matches where a given book appears for book-specific tests.
 - A rule that needs other tournaments (tour 250s, 500s) cannot be tested on prices in this data.
 
 ## When to Use

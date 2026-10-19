@@ -11,7 +11,7 @@ metadata:
 
 Every other skill delegates data retrieval here. This skill owns the 13 tools, picks the cheapest call that answers the question, tracks credit cost, and says what the data cannot do.
 
-**Coverage (from acesapi.com/data, counted from the database):** 123,394 ATP and WTA singles matches from 2007 to 2026, 1,637 weekly ranking lists, and sportsbook moneylines for 11,551 matches since 2020. Qualifying draws from 2022. Tennis data is public ESPN data; surfaces, ratings and head to head are computed by AcesAPI; lines come from The Odds API.
+**Coverage (from acesapi.com/data, counted from the database):** 123,394 ATP and WTA singles matches from 2007 to 2026, 1,637 weekly ranking lists, and sportsbook moneylines for 11,551 matches since 2020. Qualifying draws from 2022. Surfaces, ratings and head to head are computed by AcesAPI.
 
 ## Connection
 
@@ -72,7 +72,7 @@ Every response is wrapped: `{"data": {...}}`. Unwrap `data` before reading field
   "players": [{"player_id": "3623", "rating": {"before": 2325, "after": 2335, "surface_before": 1995, "surface_after": 2037}}],
   "stats": {"sets_played": 4, "total_games": 40, "tiebreaks": 0, "went_the_distance": false,
     "winner_lost_first_set": true, "serve_stats": null},
-  "odds": [{"source": "the_odds_api", "book": "Pinnacle", "p1_open": 102, "p1_close": -116,
+  "odds": [{"source": "archive", "book": "Pinnacle", "p1_open": 102, "p1_close": -116,
     "p2_open": -115, "p2_close": 105, "games_spread1": -0.5, "games_total": 41.5}]
 }}
 ```
@@ -85,7 +85,7 @@ Paginated tools (`list_tournaments`, `get_matches`, `get_player_matches`) return
 
 ## What the Data Does Not Contain
 
-- **No serve or return statistics.** No aces, double faults, break points or first-serve percentages. `get_match` returns `serve_stats: null` with a note that ESPN does not publish them. Anything that needs serve percentage must be built from score proxies (see `set-score-modeling`) or from the user's own data.
+- **No serve or return statistics.** No aces, double faults, break points or first-serve percentages. `get_match` returns `serve_stats: null` with a note that they are not published. Anything that needs serve percentage must be built from score proxies (see `set-score-modeling`) or from the user's own data.
 - **No odds tool.** Moneylines exist only inside `get_match`. Grand Slam matches from mid-2020 and ATP Masters and WTA 1000 matches from August 2024; the array is empty elsewhere. Lines are pre-match, open and close per book, refreshed hourly. No in-play prices and no props.
 - **Rankings are the top 100 to 150** per week. `current_rank` in `search_players` is `null` outside that list.
 - **No injuries, lineups, weather, court speed or betting percentages.**

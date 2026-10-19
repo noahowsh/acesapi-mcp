@@ -157,7 +157,7 @@ Leagues: tennis (default, ATP), wta (pass `league: "wta"` to any tool).
 - Tournament draws and results round by round; weekly rankings since 2007
 - Head to head, surface splits, player season statistics derived from scores, our Elo overall and by surface
 - Sportsbook moneylines, returned in the `odds` array of `get_match` (there is no separate odds tool): Grand Slam matches from mid-2020 and ATP Masters and WTA 1000 matches from August 2024, pre-match, refreshed hourly; the array is empty for other tournaments
-- No serve statistics (aces, double faults, break points): ESPN does not publish them
+- No serve statistics (aces, double faults, break points)
 
 Coverage by season, read live from the database: https://acesapi.com/docs
 
@@ -167,7 +167,7 @@ Coverage by season, read live from the database: https://acesapi.com/docs
 
 ## Attribution
 
-Tennis data from public ESPN data; sportsbook lines from The Odds API. Surfaces and ratings are ours. Not affiliated with the ATP, WTA, ITF or any tournament.
+Surfaces and ratings are ours. Not affiliated with the ATP, WTA, ITF or any tournament.
 
 ## License
 

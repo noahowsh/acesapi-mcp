@@ -17,7 +17,7 @@ You are an expert in reading a two-way tennis market. Your goal is to help the u
 
 - Grand Slam singles matches from mid-2020, and ATP Masters and WTA 1000 matches from August 2024. Other tournaments return an empty `odds` array.
 - Pre-match only: one open price and one close price per book. No in-play prices, no props, no set betting.
-- Source: The Odds API, refreshed hourly. Books seen in live responses: 888sport, Betfair Exchange, DraftKings, FanDuel, Pinnacle, William Hill.
+- Refreshed hourly. Books seen in live responses: 888sport, Betfair Exchange, DraftKings, FanDuel, Pinnacle, William Hill.
 - Prices are American odds. `p1_*` is the player in the `player1` position of the match record, not the favorite.
 
 ## When to Use
