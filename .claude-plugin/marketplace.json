@@ -7,7 +7,7 @@
   "plugins": [
     {
       "name": "acesapi-skills",
-      "source": "./",
+      "source": "./plugin",
       "description": "16 tennis analytics and betting-model skills"
     }
   ]
