@@ -131,7 +131,15 @@ node examples/node/quickstart.mjs
 
 See [`examples/README.md`](examples/README.md) for details. Get a free key (500 credits a month, no card) at https://acesapi.com/signup.
 
-## Tools (13)
+## Use it in
+
+- **Claude, ChatGPT, Cursor, VS Code, Gemini CLI, Grok, Perplexity, Le Chat:** add `https://mcp.acesapi.com/mcp` as a remote MCP server. Step-by-step for each: https://acesapi.com/mcp
+- **Gemini CLI:** `gemini extensions install https://github.com/noahowsh/acesapi-mcp`
+- **Cursor:** the [SportsDataHQ plugins for Cursor](https://github.com/noahowsh/sportsdatahq-cursor-plugins)
+- **Google Sheets:** `=SDHQ("acesapi","list_tournaments")` fills a live table: https://sportsdatahq.com/sheets
+- **REST:** `POST https://mcp.acesapi.com/v1/<tool>` with an `x-api-key` header: https://acesapi.com/docs
+
+## Tools (14)
 
 | Tool | What it returns |
 |------|-----------------|
@@ -140,7 +148,8 @@ See [`examples/README.md`](examples/README.md) for details. Get a free key (500 
 | `get_tournament` | A tournament's draw and results, round by round, with every set |
 | `get_matches` | Match results by day, tournament or season, with set and tiebreak scores |
 | `get_schedule` | Upcoming and in-progress matches for the next days |
-| `get_match` | One match: sets, tiebreak points, seeds, ratings and what the score says |
+| `get_odds` | Each sportsbook's opening and closing moneylines for a match or a whole tournament, with the games handicap and total |
+| `get_match` | One match: sets, tiebreak points, seeds, ratings, what the score says and its sportsbook lines |
 | `get_rankings` | Weekly ranking lists since 2007, or one player's ranking history |
 | `get_ratings` | Our Elo ratings, overall or by surface |
 | `get_head_to_head` | Two players' meetings, wins by surface and in finals |
