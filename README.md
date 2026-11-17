@@ -4,7 +4,7 @@
 
 **The tennis data API.** ATP and WTA singles matches with every set and tiebreak score, tournament draws round by round, player profiles, weekly rankings, head to head, surface splits, our own Elo by surface, and sportsbook moneylines on Grand Slam and Masters / WTA 1000 matches. REST API and MCP server. 500 free credits every month, no card.
 
-Website: https://acesapi.com · Docs: https://acesapi.com/docs · Get a key: https://acesapi.com/signup
+Website: https://acesapi.com?utm_source=github&utm_medium=readme&utm_campaign=acesapi-mcp · Docs: https://acesapi.com/docs?utm_source=github&utm_medium=readme&utm_campaign=acesapi-mcp · Get a key: https://acesapi.com/signup?utm_source=github&utm_medium=readme&utm_campaign=acesapi-mcp
 
 ```
 You:    "What is Carlos Alcaraz's record on clay against top-10 players?"
@@ -54,14 +54,14 @@ Point Claude at the `skills/` folder, add the MCP server (see Quick start), and 
 
 ## Useful pages
 
-- [Docs](https://acesapi.com/docs): every endpoint with parameters and live examples
-- [Tennis odds](https://acesapi.com/odds): upcoming ATP and WTA matches with each sportsbook's moneyline
-- [Data atlas](https://acesapi.com/docs/atlas): what exists and where coverage is partial
-- [Guides](https://acesapi.com/guides): Python walkthroughs for surface Elo, head to head, rankings, set scores and surface splits
-- [Data](https://acesapi.com/data): [results](https://acesapi.com/data/tennis-results-api), [rankings history](https://acesapi.com/data/tennis-rankings-history), [odds history](https://acesapi.com/data/tennis-odds-history)
-- [Pricing](https://acesapi.com/pricing): credits per call, 500 free every month
-- [Surface Elo explained](https://acesapi.com/glossary/surface-elo)
-- Compare: [API Tennis](https://acesapi.com/compare/api-tennis), [ESPN's tennis feed](https://acesapi.com/compare/espn-tennis-api), [Sportradar](https://acesapi.com/compare/sportradar-tennis), [SportsDataIO](https://acesapi.com/compare/sportsdataio-tennis)
+- [Docs](https://acesapi.com/docs?utm_source=github&utm_medium=readme&utm_campaign=acesapi-mcp): every endpoint with parameters and live examples
+- [Tennis odds](https://acesapi.com/odds?utm_source=github&utm_medium=readme&utm_campaign=acesapi-mcp): upcoming ATP and WTA matches with each sportsbook's moneyline
+- [Data atlas](https://acesapi.com/docs/atlas?utm_source=github&utm_medium=readme&utm_campaign=acesapi-mcp): what exists and where coverage is partial
+- [Guides](https://acesapi.com/guides?utm_source=github&utm_medium=readme&utm_campaign=acesapi-mcp): Python walkthroughs for surface Elo, head to head, rankings, set scores and surface splits
+- [Data](https://acesapi.com/data?utm_source=github&utm_medium=readme&utm_campaign=acesapi-mcp): [results](https://acesapi.com/data/tennis-results-api?utm_source=github&utm_medium=readme&utm_campaign=acesapi-mcp), [rankings history](https://acesapi.com/data/tennis-rankings-history?utm_source=github&utm_medium=readme&utm_campaign=acesapi-mcp), [odds history](https://acesapi.com/data/tennis-odds-history?utm_source=github&utm_medium=readme&utm_campaign=acesapi-mcp)
+- [Pricing](https://acesapi.com/pricing?utm_source=github&utm_medium=readme&utm_campaign=acesapi-mcp): credits per call, 500 free every month
+- [Surface Elo explained](https://acesapi.com/glossary/surface-elo?utm_source=github&utm_medium=readme&utm_campaign=acesapi-mcp)
+- Compare: [API Tennis](https://acesapi.com/compare/api-tennis?utm_source=github&utm_medium=readme&utm_campaign=acesapi-mcp), [ESPN's tennis feed](https://acesapi.com/compare/espn-tennis-api?utm_source=github&utm_medium=readme&utm_campaign=acesapi-mcp), [Sportradar](https://acesapi.com/compare/sportradar-tennis?utm_source=github&utm_medium=readme&utm_campaign=acesapi-mcp), [SportsDataIO](https://acesapi.com/compare/sportsdataio-tennis?utm_source=github&utm_medium=readme&utm_campaign=acesapi-mcp)
 
 ## Python
 
@@ -129,15 +129,15 @@ python3 examples/python/quickstart.py
 node examples/node/quickstart.mjs
 ```
 
-See [`examples/README.md`](examples/README.md) for details. Get a free key (500 credits a month, no card) at https://acesapi.com/signup.
+See [`examples/README.md`](examples/README.md) for details. Get a free key (500 credits a month, no card) at https://acesapi.com/signup.?utm_source=github&utm_medium=readme&utm_campaign=acesapi-mcp
 
 ## Use it in
 
-- **Claude, ChatGPT, Cursor, VS Code, Gemini CLI, Grok, Perplexity, Le Chat:** add `https://mcp.acesapi.com/mcp` as a remote MCP server. Step-by-step for each: https://acesapi.com/mcp
+- **Claude, ChatGPT, Cursor, VS Code, Gemini CLI, Grok, Perplexity, Le Chat:** add `https://mcp.acesapi.com/mcp` as a remote MCP server. Step-by-step for each: https://acesapi.com/mcp?utm_source=github&utm_medium=readme&utm_campaign=acesapi-mcp
 - **Gemini CLI:** `gemini extensions install https://github.com/noahowsh/acesapi-mcp`
 - **Cursor:** the [SportsDataHQ plugins for Cursor](https://github.com/noahowsh/sportsdatahq-cursor-plugins)
-- **Google Sheets:** `=SDHQ("acesapi","list_tournaments")` fills a live table: https://sportsdatahq.com/sheets
-- **REST:** `POST https://mcp.acesapi.com/v1/<tool>` with an `x-api-key` header: https://acesapi.com/docs
+- **Google Sheets:** `=SDHQ("acesapi","list_tournaments")` fills a live table: https://sportsdatahq.com/sheets?utm_source=github&utm_medium=readme&utm_campaign=acesapi-mcp
+- **REST:** `POST https://mcp.acesapi.com/v1/<tool>` with an `x-api-key` header: https://acesapi.com/docs?utm_source=github&utm_medium=readme&utm_campaign=acesapi-mcp
 
 ## Tools (14)
 
@@ -168,11 +168,11 @@ Leagues: tennis (default, ATP), wta (pass `league: "wta"` to any tool).
 - Sportsbook moneylines, returned in the `odds` array of `get_match` (there is no separate odds tool): Grand Slam matches from mid-2020 and ATP Masters and WTA 1000 matches from August 2024, pre-match, refreshed hourly; the array is empty for other tournaments
 - No serve statistics (aces, double faults, break points)
 
-Coverage by season, read live from the database: https://acesapi.com/docs
+Coverage by season, read live from the database: https://acesapi.com/docs?utm_source=github&utm_medium=readme&utm_campaign=acesapi-mcp
 
 ## Pricing
 
-500 free credits every month, no card. Plans: Starter $19/mo (10,000 credits), Pro $49/mo (30,000), Scale $149/mo (125,000). Wallet top-ups from $5, never expire. https://acesapi.com/pricing
+500 free credits every month, no card. Plans: Starter $19/mo (10,000 credits), Pro $49/mo (30,000), Scale $149/mo (125,000). Wallet top-ups from $5, never expire. https://acesapi.com/pricing?utm_source=github&utm_medium=readme&utm_campaign=acesapi-mcp
 
 ## Attribution
 
@@ -190,7 +190,7 @@ Add this repo as a Codex plugin marketplace, then install the plugin:
 codex plugin marketplace add noahowsh/acesapi-mcp
 ```
 
-Then open the plugin directory in Codex and install `acesapi-skills` from the `acesapi` marketplace. The plugin bundles the skills in `skills/` and the AcesAPI MCP server (https://mcp.acesapi.com/mcp). Set your key first (free at https://acesapi.com/signup):
+Then open the plugin directory in Codex and install `acesapi-skills` from the `acesapi` marketplace. The plugin bundles the skills in `skills/` and the AcesAPI MCP server (https://mcp.acesapi.com/mcp). Set your key first (free at https://acesapi.com/signup?utm_source=github&utm_medium=readme&utm_campaign=acesapi-mcp):
 
 ```bash
 export ACESAPI_API_KEY=your_key
@@ -205,4 +205,4 @@ export ACESAPI_API_KEY=your_key
 gemini extensions install https://github.com/noahowsh/acesapi-mcp
 ```
 
-The extension adds the AcesAPI MCP server (https://mcp.acesapi.com/mcp) and sends the key in the `x-api-key` header. Get a free key (500 credits a month) at https://acesapi.com/signup.
+The extension adds the AcesAPI MCP server (https://mcp.acesapi.com/mcp) and sends the key in the `x-api-key` header. Get a free key (500 credits a month) at https://acesapi.com/signup.?utm_source=github&utm_medium=readme&utm_campaign=acesapi-mcp
