@@ -129,7 +129,7 @@ python3 examples/python/quickstart.py
 node examples/node/quickstart.mjs
 ```
 
-See [`examples/README.md`](examples/README.md) for details. Get a free key (500 credits a month, no card) at https://acesapi.com/signup.?utm_source=github&utm_medium=readme&utm_campaign=acesapi-mcp
+See [`examples/README.md`](examples/README.md) for details. Get a free key (500 credits a month, no card) at https://acesapi.com/signup?utm_source=github&utm_medium=readme&utm_campaign=acesapi-mcp.
 
 ## Use it in
 
@@ -205,4 +205,4 @@ export ACESAPI_API_KEY=your_key
 gemini extensions install https://github.com/noahowsh/acesapi-mcp
 ```
 
-The extension adds the AcesAPI MCP server (https://mcp.acesapi.com/mcp) and sends the key in the `x-api-key` header. Get a free key (500 credits a month) at https://acesapi.com/signup.?utm_source=github&utm_medium=readme&utm_campaign=acesapi-mcp
+The extension adds the AcesAPI MCP server (https://mcp.acesapi.com/mcp) and sends the key in the `x-api-key` header. Get a free key (500 credits a month) at https://acesapi.com/signup?utm_source=github&utm_medium=readme&utm_campaign=acesapi-mcp.
